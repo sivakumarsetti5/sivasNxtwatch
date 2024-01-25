@@ -1,0 +1,146 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 85vh;
+  padding: 20px;
+  width: 25vw;
+}
+.home-sub-container {
+  display: flex;
+}
+.premium-main-container {
+  display: flex;
+  align-items: flex-start;
+}
+.nxt-watch-premium-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+  width: 60vw;
+  height: 30vh;
+  padding: 20px;
+}
+.home-items-container {
+  width: 75vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+.get-it-now-btn {
+  background-color: transparent;
+  padding: 8px;
+  border: 1px solid #475569;
+  font-family: 'roboto';
+}
+.close-btn {
+  border: none;
+  background-color: transparent;
+}
+.search-video-items-container {
+  background-color: #f8fafc;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.search-main-cont {
+  display: flex;
+  padding-top: 15px;
+}
+.search-container {
+  border: 1px solid #272727;
+  width: 50%;
+}
+
+.search-element {
+  background-color: transparent;
+  border-width: 0px;
+  padding: 10px;
+  padding-right: 40px;
+  outline: none;
+  color: #ffffff;
+}
+
+.search-btn {
+  border: 1px solid #272727;
+  background-color: #f1f5f9;
+  border-width: 1px;
+  padding: 10px;
+}
+.search-icon {
+  border-width: 0px;
+  background-color: #f1f5f9;
+  color: #272727;
+}
+.thumbnail-url {
+  height: 120px;
+  width: 230px;
+}
+.profile-image {
+  margin-top: 15px;
+  height: 50px;
+  margin-right: 10px;
+}
+.video-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+.video-item-card {
+  font-family: 'roboto';
+  height: 350px;
+  width: 230px;
+  margin-right: 50px;
+}
+.views-year-container {
+  display: flex;
+  align-items: center;
+  line-height: 0em;
+}
+.title {
+  font-size: 15px;
+  font-weight: 600px;
+  color: #1e293b;
+}
+.name {
+  font-size: 12px;
+  font-weight: 400px;
+  color: #94a3b8;
+  padding-right: 10px;
+}
+.profile-details-container {
+  display: flex;
+  align-items: flex-start;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafc;
+  color: #000000;
+  font-family: 'roboto';
+  padding-top: 30px;
+}
+.retry-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-width: 0px;
+  padding: 10px;
+}
+.failure-image {
+  width: 350px;
+  height: 150px;
+}

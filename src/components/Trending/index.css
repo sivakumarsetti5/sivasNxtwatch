@@ -1,0 +1,32 @@
+.trending-video-item-card {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'roboto';
+  margin-bottom: 35px;
+}
+.trending-video-items-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.thumbnail-url {
+  height: 150px;
+  width: 250px;
+  margin-right: 15px;
+}
+.trending-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  position: sticky;
+  top: 0;
+  padding-left: 20px;
+}
+.trending-icon {
+  height: 30px;
+  width: 30px;
+  color: red;
+  margin-right: 15px;
+}
+.trending-text {
+  font-family: 'roboto';
+}
